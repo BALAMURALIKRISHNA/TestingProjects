@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="square-e2e-tests">
+	<listeners>
+    <!-- <listener class-name="org.imaginea.test.automation.framework.testng.listener.MethodInvokerListener" /> -->
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+  </listeners>
+    <test name="square tests">
+       <!--  <packages>
+            <package name="com.intuit.sbg.itduzzit.tests.pi.square" />
+        </packages> -->
+        <classes>
+             <class name="test.without.pageobj.QBOSignIN"/>
+           
+        </classes>
+    </test>
+</suite>
